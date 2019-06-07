@@ -1,4 +1,4 @@
-# RedisTimeSeries Basic Demoes
+# RedisTimeSeries Basic Demos
 
 A set of basic demoes showcasing the integration of RedisTimeSeries with Prometheus and Grafana.
 
