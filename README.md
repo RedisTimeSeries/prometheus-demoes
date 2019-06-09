@@ -20,14 +20,14 @@ Default username and passwords are:
  - username: `admin`
  - password: `admin`
 
-1. weather station under `/weather_station`
+### Demo 1: weather station under `/weather_station`
 ```
 $ python3 weather_station/sensors.py
 ```
 This script will add random measurements for temperature and humidity for a number of sensors.
 ![Weather Station](/img/sensors.png)
 
-2. Page view visitors counting under `/counters`
+### Demo 2: Page view visitors counting under `/counters`
 ```
 $ python3 counters/viewer.py
 ```
