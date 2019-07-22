@@ -8,7 +8,7 @@ services:
     ports:
       - 9090:9090
   adapter:
-    image: "redislabs/prometheus-redistimeseries-adapter:master"
+    image: "redislabs/prometheus-redistimeseries-adapter:version-0.0.14"
     command: ["-redis-address", "redis:6379", "-web.listen-address", "0.0.0.0:9201"]
   redis:
     build: ./redis/.
